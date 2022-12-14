@@ -15,13 +15,13 @@ const Hero = () => {
           <h1 className=" text-xl sm:text-4xl md:text-5xl font-bold ">
             Fast, flexible financing for
           </h1>
-          <Typed
+          {/* <Typed
             className="text-gray-600 text-xl sm:text-4xl md:text-5xl font-bold pl-2 md:pl-4"
             strings={["BTB", "BTC", "SASS"]}
             typeSpeed={120}
             backSpeed={130}
             loop
-          />
+          /> */}
         </div>
         <p className="text-gray-600 text-md sm:text-xl md:text-2xl font-bold ">
           Monitor your data analytics to increase revenue <br /> for BTC BTB
