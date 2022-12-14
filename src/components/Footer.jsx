@@ -18,16 +18,16 @@ const Footer = () => {
           aliquam minus soluta hic perferendis iusto.
         </p>
         <div className="flex justify-between  md:w-[75%]">
-          <a href="www.facebook.com">
+          <a href="https://www.facebook.com">
             <FaFacebookSquare size={30} />
           </a>
-          <a href="www.twiter.com">
+          <a href="https://www.twitter.com">
             <FaTwitterSquare size={30} />
           </a>
-          <a href="www.instagram.com">
+          <a href="https://www.instagram.com">
             <FaInstagramSquare size={30} />
           </a>
-          <a href="www.github.com">
+          <a href="https://www.github.com">
             <FaGithubSquare size={30} />
           </a>
         </div>

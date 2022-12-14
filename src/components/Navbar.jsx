@@ -11,11 +11,21 @@ const Navbar = () => {
     <nav className=" text-white flex justify-between mx-auto px-4 h-24 max-w-[1240px] items-center">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT</h1>
       <ul className="hidden md:flex">
-        <li className="p-4">Company</li>
-        <li className="p-4">Resources</li>
-        <li className="p-4">Home</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <a href="/">
+          <li className="p-4">Company</li>
+        </a>
+        <a href="/">
+          <li className="p-4">Resources</li>
+        </a>
+        <a href="/">
+          <li className="p-4">Home</li>
+        </a>
+        <a href="/">
+          <li className="p-4">About</li>
+        </a>
+        <a href="/">
+          <li className="p-4">Contact</li>
+        </a>
       </ul>
       <div className=" flex md:hidden ">
         {nav ? (
